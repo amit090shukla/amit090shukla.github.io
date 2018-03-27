@@ -33,7 +33,7 @@
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 300;
 }
-.project-row-1{
+.project-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
