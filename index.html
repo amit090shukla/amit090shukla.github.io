@@ -1,7 +1,38 @@
 <html>
 <head>
-<title>Hello</title>
+<title>Hello People</title>
+    <link rel="stylesheet" href="./mdl/material.min.css">
+    <link rel="stylesheet" href="./custom.css">
+    <script src="./mdl/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
-Hello People
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header header-custom">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title black-text name-logo">amitshukla</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link black-text" href="">Link</a>
+              <a class="mdl-navigation__link black-text" href="">Link</a>
+              <a class="mdl-navigation__link black-text" href="">Link</a>
+            </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title black-text">Title</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link black-text" href="">Link</a>
+            <a class="mdl-navigation__link black-text" href="">Link</a>
+            <a class="mdl-navigation__link black-text" href="">Link</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <div class="page-content">Something is coming up here</div>
+        </main>
+      </div>
 </body>

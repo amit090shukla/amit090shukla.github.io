@@ -1,0 +1,14 @@
+.header-custom{
+    background-color: white;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+}
+.black-text{
+    color:#000 !important; 
+}
+.name-logo{
+    font-weight: 1000;
+    font-size:1.4em;
+    font-family: "Lato", "Roboto","Helvetica","Arial",sans-serif;
+    letter-spacing: 2px;
+    font-t
+}
