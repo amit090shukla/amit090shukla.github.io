@@ -1,12 +1,21 @@
 <html>
 <head>
-<title>Hello People</title>
+    <title>Hello People</title>
     <link rel="stylesheet" href="./mdl/material.min.css">
     <link rel="stylesheet" href="./custom.css">
     <script src="./mdl/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116471326-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116471326-1');
+    </script>
 </head>
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -18,14 +27,14 @@
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link black-text" href="">Projects</a>
-              <a class="mdl-navigation__link black-text" href="">About</a>
-              <a class="mdl-navigation__link black-text" href="">Contact</a>
+              <a class="mdl-navigation__link black-text" href=""><span class="header-links">Projects</span></a>
+              <a class="mdl-navigation__link black-text" href=""><span class="header-links">About</span></a>
+              <a class="mdl-navigation__link black-text" href=""><span class="header-links">Contact</span></a>
             </nav>
           </div>
         </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title black-text name-logo">Title</span>
+          <span class="mdl-layout-title black-text name-logo">amitshukla</span>
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link black-text" href="">Projects</a>
             <a class="mdl-navigation__link black-text" href="">About</a>
@@ -38,8 +47,19 @@
             </div>
             <div class="mdl-cell mdl-cell--8-col home-page-center-text">
               <div class="home-page-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit tempore et, nihil, harum veritatis rem accusantium ex recusandae odio
+                I'm a User Experience Designer based in India focused on building meaningful experiences through design.
               </div>
+            </div>
+            <div class="project-row-1">
+              <div class="mdl-cell mdl-cell--4-col image-div"></div>
+              <div class="mdl-cell mdl-cell--4-col image-div"></div>
+              <div class="mdl-cell mdl-cell--4-col image-div"></div>
+            </div>
+            <div class="project-row-1">
+              <div class="mdl-cell mdl-cell--8-col image-div"></div>
+              <div class="mdl-cell mdl-cell--4-col image-div"></div>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
             </div>
           </section>
         </main>

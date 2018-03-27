@@ -3,17 +3,17 @@
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
 }
 .black-text{
-    color:#000 !important; 
+    color:#2d2d2d !important
 }
 .name-logo{
-    font-weight: 1000;
-    font-size:1.4em;
+    font-weight: 700;
+    font-size: 1.3em;
     font-family: "Lato", "Roboto","Helvetica","Arial",sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .mdl-layout__header-row{
-    padding:0 80px 0 80px;
+    padding: 20px 80px 0px 80px;
 }
 .page-content{
     padding: 40px 80px 40px 80px;
@@ -26,10 +26,22 @@
     /* border: 1px solid red; */
 }
 .home-page-text{
-    font-size: 3em;
+    font-size: 3.2em;
     line-height: 124%;
     letter-spacing: 2px;
     color: #484848;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 300;
+}
+.project-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-div{
+    height: 20em;
+    background-color: #a0a0a0;
+}
+.header-links{
+    letter-spacing: 2px;
 }
