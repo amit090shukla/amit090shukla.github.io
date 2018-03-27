@@ -45,3 +45,16 @@
 .header-links{
     letter-spacing: 2px;
 }
+.heading-section{
+    font-weight: 600;
+    padding: 8px;
+}
+.get-in-touch{
+    height: 8em;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-text{
+    padding: 24px;
+}
