@@ -65,3 +65,7 @@
 .hover div{
     color: white;
 }
+.hover-uxd{
+    background: linear-gradient(90deg, rgb(45, 142, 243), rgb(64, 192, 230));
+    color:white;
+}

@@ -39,7 +39,7 @@
             </div>
             <div class="mdl-cell mdl-cell--10-col home-page-center-text">
               <div class="home-page-text">
-                I'm a User Experience Designer based in India focused on building meaningful experiences through design.
+                I'm a <span id ="uxd">Experience Designer</span> based in India focused on building meaningful experiences through design.
               </div>
             </div>
             <div class="heading-section">
@@ -63,7 +63,7 @@
             </div>
             <div class="mdl-cell mdl-cell--8-col home-page-center-text">
               <div class="home-page-text">
-                Currently Interning as a Frontend Developer for Voylla Fashions, Jaipur
+                Currently Interning as a <span id ="current-job">Frontend Developer</span> for Voylla Fashions, Jaipur
               </div>
             </div>
             <div class="mdl-cell mdl-cell--12-col get-in-touch">
@@ -82,13 +82,32 @@
       gtag('config', 'UA-116471326-1');
     </script>
     <script>
+      // Get in touch button
       $(".get-in-touch").hover(
       function() {
       $(".get-in-touch").addClass( "hover" );
       }, function(){
       $(".get-in-touch").removeClass( "hover" );
       }
-);
-      $(".get-in-touch").mouseenter( handlerIn ).mouseleave( handlerOut );
-    </script>
+      );
+      
+      // Home page center text
+
+      $("#uxd").hover(
+      function() {
+      $("#uxd").addClass("hover-uxd");
+      }, function(){
+      $("#uxd").removeClass("hover-uxd");
+      }
+      );
+
+      
+      $("#current-job").hover(
+      function() {
+      $("#current-job").addClass("hover-uxd");
+      }, function(){
+      $("#current-job").removeClass("hover-uxd");
+      }
+      );
+      </script>
 </body>
