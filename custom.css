@@ -58,3 +58,10 @@
 .contact-text{
     padding: 24px;
 }
+.hover{
+    background: linear-gradient(90deg, rgb(45, 142, 243), rgb(64, 192, 230));
+    border: none;
+}
+.hover div{
+    color: white;
+}

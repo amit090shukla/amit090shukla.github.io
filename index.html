@@ -3,6 +3,7 @@
     <title>Hello People</title>
     <link rel="stylesheet" href="./mdl/material.min.css">
     <script src="./mdl/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -79,5 +80,15 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-116471326-1');
+    </script>
+    <script>
+      $(".get-in-touch").hover(
+      function() {
+      $(".get-in-touch").addClass( "hover" );
+      }, function(){
+      $(".get-in-touch").removeClass( "hover" );
+      }
+);
+      $(".get-in-touch").mouseenter( handlerIn ).mouseleave( handlerOut );
     </script>
 </body>
