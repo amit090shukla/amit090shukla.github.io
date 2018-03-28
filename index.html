@@ -47,7 +47,6 @@
             </div>
             <div class="project-row">
               <div class="mdl-cell mdl-cell--4-col image-div">
-                
               </div>
               <div class="mdl-cell mdl-cell--4-col image-div"></div>
               <div class="mdl-cell mdl-cell--4-col image-div"></div>
@@ -69,6 +68,41 @@
             <div class="mdl-cell mdl-cell--12-col get-in-touch">
               <div class="home-page-text contact-text">Get in touch</div>
             </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="heading-section">
+              A little extra - 
+            </div>
+            <div class="mdl-cell mdl-cell--10-col home-page-center-text">
+              <div class="home-page-text">
+                  Check out my <span id ="youtube-text">YouTube</span> videos on UI design and UX analysis which I do as a freetime hobby. 
+              </div>
+            </div>
+            <div class="project-row">
+              <div class="mdl-cell mdl-cell--4-col video-div">
+                <a href="https://www.youtube.com/watch?v=fFJ_tSy2beE"></a><img src="./images/instagram-youtube.jpg" class = "youtube-thumbnail"/></a>
+                <div class="mdl-cell mdl-cell--12-col youtube-video-name">
+                    Instagram | Design Problem | UX Analysis | Improved Animation
+                </div>  
+              </div>
+              <div class="mdl-cell mdl-cell--4-col video-div">
+                  <a href="https://www.youtube.com/watch?v=mm61CnSiiZY"><img src="./images/command-youtube.jpg" class = "youtube-thumbnail"/></a>
+                  <div class="mdl-cell mdl-cell--12-col youtube-video-name">
+                    Command Prompt | Windows 10 | Fluent Design | Concept UI | UX Analysis
+                  </div>  
+              </div>
+              <div class="mdl-cell mdl-cell--4-col video-div">
+                <a href="https://www.youtube.com/watch?v=neC8366eSkg"><img src="./images/clipboard-youtube.jpg" class = "youtube-thumbnail"/></a>
+                <div class="mdl-cell mdl-cell--12-col youtube-video-name">
+                    Windows 10 Context Menu | Concept UI | Fluent Design
+                </div>  
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            
           </section>
         </main>
       </div>
@@ -101,7 +135,8 @@
       }
       );
 
-      
+      // Current job text
+
       $("#current-job").hover(
       function() {
       $("#current-job").addClass("hover-uxd");
@@ -109,5 +144,17 @@
       $("#current-job").removeClass("hover-uxd");
       }
       );
+
+      // Youtube section text
+
+      $("#youtube-text").hover(
+      function() {
+      $("#youtube-text").addClass("hover-youtube");
+      }, function(){
+      $("#youtube-text").removeClass("hover-youtube");
+      }
+      );
+
+      
       </script>
 </body>
