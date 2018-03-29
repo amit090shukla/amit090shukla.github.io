@@ -82,27 +82,33 @@
               <div class="mdl-cell mdl-cell--4-col video-div">
                 <a href="https://www.youtube.com/watch?v=fFJ_tSy2beE"></a><img src="./images/instagram-youtube.jpg" class = "youtube-thumbnail"/></a>
                 <div class="mdl-cell mdl-cell--12-col youtube-video-name">
-                    Instagram | Design Problem | UX Analysis | Improved Animation
+                    Instagram UX Analysis
                 </div>  
               </div>
               <div class="mdl-cell mdl-cell--4-col video-div">
                   <a href="https://www.youtube.com/watch?v=mm61CnSiiZY"><img src="./images/command-youtube.jpg" class = "youtube-thumbnail"/></a>
                   <div class="mdl-cell mdl-cell--12-col youtube-video-name">
-                    Command Prompt | Windows 10 | Fluent Design | Concept UI | UX Analysis
+                    Command Prompt UX Analysis
                   </div>  
               </div>
               <div class="mdl-cell mdl-cell--4-col video-div">
                 <a href="https://www.youtube.com/watch?v=neC8366eSkg"><img src="./images/clipboard-youtube.jpg" class = "youtube-thumbnail"/></a>
                 <div class="mdl-cell mdl-cell--12-col youtube-video-name">
-                    Windows 10 Context Menu | Concept UI | Fluent Design
+                    Windows 10 Context Menu UX Analysis 
                 </div>  
               </div>
+              
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
             </div>
             <div class="mdl-cell mdl-cell--12-col empty-space">
             </div>
             <div class="mdl-cell mdl-cell--12-col empty-space">
             </div>
             
+            <div class="mdl-cell mdl-cell--12-col get-in-touch">
+                <div class="home-page-text contact-text">Amit Shukla on YouTube</div>
+            </div>
           </section>
         </main>
       </div>
@@ -155,6 +161,14 @@
       }
       );
 
+      // Get in touch button
+      $(".get-in-touch").hover(
+      function() {
+      $(".get-in-touch").addClass( "hover-yt" );
+      }, function(){
+      $(".get-in-touch").removeClass( "hover-yt" );
+      }
+      );
       
       </script>
 </body>
