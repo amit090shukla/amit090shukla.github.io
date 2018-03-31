@@ -21,6 +21,9 @@
 .empty-space{
     height: 4em;
 }
+.empty-space-2{
+    height: 2em;
+}
 .empty-space-contact{
     height: 1em;
 }
@@ -33,6 +36,14 @@
 }
 .home-page-text{
     font-size: 3.3em;
+    line-height: 124%;
+    letter-spacing: 2px;
+    color: #484848;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+}
+.about-page-text{
+    font-size: 2.8em;
     line-height: 124%;
     letter-spacing: 2px;
     color: #484848;
@@ -117,4 +128,8 @@
 }
 .links{
     text-decoration: none;
+}
+.center-image{
+    height: 50em;
+    background-color: #a0a0a0;
 }

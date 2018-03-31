@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Hello People</title>
+    <link rel="stylesheet" href="./mdl/material.min.css">
+    <script src="./mdl/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="./custom.css">
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header header-custom">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title black-text name-logo">amitshukla</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link black-text" href="./index.html"><span class="header-links">Projects</span></a>
+              <a class="mdl-navigation__link black-text" href="./about.html"><span class="header-links">About</span></a>
+              <a class="mdl-navigation__link black-text" href="./contact.html"><span class="header-links">Contact</span></a>
+            </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title black-text name-logo">amitshukla</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link black-text" href="./index.html">Projects</a>
+            <a class="mdl-navigation__link black-text" href="./about.html">About</a>
+            <a class="mdl-navigation__link black-text" href="./contact.html">Contact</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+          <section class="page-content">
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="heading-section">
+                A little about me - 
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space-2">
+            </div>
+            <div class="mdl-cell mdl-cell--10-col home-page-center-text-contact">
+              <div class="home-page-text">
+                All work, all play – I'm lucky enough to do what I love.
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col center-image"></div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col home-page-center-text-contact">
+                <div class="about-page-text">
+                        I'm an Experience Designer. I believe that design can be used as a tool to enable meaningful experiences in brands, products and services. With a background in Industrial Design and Technology, I want to be designing experiences through a combination of physical and digital products.
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col get-in-touch" id="mail-link">
+                <a href="mailto:amit090shukla@gmail.com?Subject=Hello%20again" class="links" target="__blank"><div class="home-page-text contact-text">Downlaod Resume</div></a>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+            <div class="mdl-cell mdl-cell--12-col empty-space">
+            </div>
+          </section>
+        </main>
+      </div>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116471326-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116471326-1');
+    </script>
+    <script>
+      // Get in touch button
+      $(".get-in-touch").hover(
+      function() {
+      $(".get-in-touch").addClass( "hover" );
+      }, function(){
+      $(".get-in-touch").removeClass( "hover" );
+      }
+      );
+      
+      // Home page center text
+
+      $("#uxd").hover(
+      function() {
+      $("#uxd").addClass("hover-uxd");
+      }, function(){
+      $("#uxd").removeClass("hover-uxd");
+      }
+      );
+
+      // Current job text
+
+      $("#current-job").hover(
+      function() {
+      $("#current-job").addClass("hover-uxd");
+      }, function(){
+      $("#current-job").removeClass("hover-uxd");
+      }
+      );
+
+      // Youtube section text
+
+      $("#youtube-text").hover(
+      function() {
+      $("#youtube-text").addClass("hover-youtube");
+      }, function(){
+      $("#youtube-text").removeClass("hover-youtube");
+      }
+      );
+
+      // Get in touch button
+      $(".get-in-touch").hover(
+      function() {
+      $(".get-in-touch").addClass( "hover-yt" );
+      }, function(){
+      $(".get-in-touch").removeClass( "hover-yt" );
+      }
+      );
+      
+      </script>
+</body>
