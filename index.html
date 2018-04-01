@@ -19,25 +19,25 @@
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link black-text" href="./index.html"><span class="header-links">Projects</span></a>
-              <a class="mdl-navigation__link black-text" href="./about.html"><span class="header-links">About</span></a>
-              <a class="mdl-navigation__link black-text" href="./contact.html"><span class="header-links">Contact</span></a>
+              <a class="mdl-navigation__link black-text" href="./index.html" id="project-nav"><span class="header-links">PROJECTS</span></a>
+              <a class="mdl-navigation__link black-text" href="./about.html" id="about-nav"><span class="header-links">ABOUT</span></a>
+              <a class="mdl-navigation__link black-text" href="./contact.html" id="contact-nav"><span class="header-links">CONTACT</span></a>
             </nav>
           </div>
         </header>
         <div class="mdl-layout__drawer">
           <span class="mdl-layout-title black-text name-logo">amitshukla</span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link black-text" href="./index.html">Projects</a>
-            <a class="mdl-navigation__link black-text" href="./about.html">About</a>
-            <a class="mdl-navigation__link black-text" href="./contact.html">Contact</a>
+            <a class="mdl-navigation__link black-text" href="./index.html">PROJECTS</a>
+            <a class="mdl-navigation__link black-text" href="./about.html">ABOUT</a>
+            <a class="mdl-navigation__link black-text" href="./contact.html">CONTACT</a>
           </nav>
         </div>
         <main class="mdl-layout__content">
           <section class="page-content">
-            <div class="mdl-cell mdl-cell--12-col empty-space">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone empty-space">
             </div>
-            <div class="mdl-cell mdl-cell--10-col home-page-center-text">
+            <div class="mdl-cell mdl-cell--10-col mdl-cell--6-col-tablet mdl-cell--4-col-phone  home-page-center-text">
               <div class="home-page-text">
                 I'm a <span id ="uxd">Experience Designer</span> based in India focused on building meaningful experiences through design.
               </div>
@@ -170,5 +170,28 @@
       }
       );
       
+      //Navbar hover effects
+      $("#project-nav").hover(
+        function(){
+          $("#project-nav").addClass("hover-nav");
+        }, function(){
+          $("#project-nav").removeClass("hover-nav");
+        }
+      );
+      $("#about-nav").hover(
+        function(){
+          $("#about-nav").addClass("hover-nav");
+        }, function(){
+          $("#about-nav").removeClass("hover-nav");
+        }
+      );
+      $("#contact-nav").hover(
+        function(){
+          $("#contact-nav").addClass("hover-nav");
+        }, function(){
+          $("#contact-nav").removeClass("hover-nav");
+        }
+      );
+
       </script>
 </body>

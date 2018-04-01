@@ -1,6 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 .header-custom{
     background-color: white;
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+    height: 6em;
 }
 .black-text{
     color:#2d2d2d !important
@@ -13,7 +23,7 @@
 }
 
 .mdl-layout__header-row{
-    padding: 20px 80px 0px 80px;
+    padding: 20px 80px 0px 140px;
 }
 .page-content{
     padding: 40px 80px 40px 80px;
@@ -132,4 +142,14 @@
 .center-image{
     height: 50em;
     background-color: #a0a0a0;
+}
+.hover-nav{
+    /* border-bottom: 3px solid rebeccapurple; */
+    border:1px solid black;
+}
+/* MDL Properties Override */
+.mdl-layout__header .mdl-layout__drawer-button{
+    color: #000;
+    padding-top: 22px;
+    padding-left: 60px;
 }
